@@ -49,7 +49,7 @@ def printRect(text, rect):
 def quitGame():
     print "Game over!"
     # How can we measure the player's score?
-    print "Your score is: "
+    print "Your score is: apple "
     sys.exit(0)
 
 # Code to move the head.
@@ -89,7 +89,7 @@ def draw(oldPiece, head, body, appleRect, hasEaten, screen):
 
 
     # Draw the head.
-    pygame.draw.rect(screen, (0, 255, 0), head)
+    pygame.draw.rect(screen, (255, 0, 255), head)
     # Draw the body.
     for block in body:
         pygame.draw.rect(screen, (0, 155, 0), block)
@@ -99,7 +99,7 @@ def draw(oldPiece, head, body, appleRect, hasEaten, screen):
         pygame.draw.rect(screen, (0, 0, 0), oldPiece)
 
     # Draw the apple.
-    pygame.draw.rect(screen, (255, 255, 255), appleRect)
+    pygame.draw.rect(screen, (0, 255, 100), appleRect)
 
 
 
