@@ -49,7 +49,7 @@ def printRect(text, rect):
 def quitGame():
     print "Game over!"
     # How can we measure the player's score?
-    print "Your score is: apple "
+    print "Your score is: However Many Apples You Ate "
     sys.exit(0)
 
 # Code to move the head.
