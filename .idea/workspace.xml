@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d67c9007-72b1-4b62-a59d-417e46bb0af6" name="Default" comment="Changed size&#10;&#10;Changed scorereadout">
+    <list default="true" id="d67c9007-72b1-4b62-a59d-417e46bb0af6" name="Default" comment="FOR EACH APPLE THE SPEED GOES UP&#10;&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaseSnake.py" afterPath="$PROJECT_DIR$/BaseSnake.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Helpers.py" afterPath="$PROJECT_DIR$/Helpers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Constants.py" afterPath="$PROJECT_DIR$/Constants.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SnakesForPython.iws" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BaseSnake.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseSnake.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BaseSnake.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1271028">
-              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            <state vertical-scroll-proportion="-7.285714">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Constants.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.296296">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.39184397">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -65,9 +65,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Constants.py" />
         <option value="$PROJECT_DIR$/Helpers.py" />
         <option value="$PROJECT_DIR$/BaseSnake.py" />
+        <option value="$PROJECT_DIR$/Constants.py" />
       </list>
     </option>
   </component>
@@ -312,7 +312,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444411490887</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="When you crash into self- says on thing&#10;When you crash into wall- says another thing&#10;&#10;*YASH HELPED WITH THIS ON">
+      <created>1444412735303</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1444412735303</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -377,7 +383,8 @@
     <MESSAGE value="Changed apple to white&#10;Made Snake start with one body" />
     <MESSAGE value="Changed apple to a green apple&#10;Changed snake mouth color" />
     <MESSAGE value="Changed size&#10;&#10;Changed scorereadout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed size&#10;&#10;Changed scorereadout" />
+    <MESSAGE value="When you crash into self- says on thing&#10;When you crash into wall- says another thing&#10;&#10;*YASH HELPED WITH THIS ON" />
+    <option name="LAST_COMMIT_MESSAGE" value="When you crash into self- says on thing&#10;When you crash into wall- says another thing&#10;&#10;*YASH HELPED WITH THIS ON" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -416,10 +423,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Constants.py">
+    <entry file="file://$PROJECT_DIR$/BaseSnake.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.296296">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state vertical-scroll-proportion="-7.285714">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -434,10 +441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaseSnake.py">
+    <entry file="file://$PROJECT_DIR$/Constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1271028">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.39184397">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding />
         </state>
       </provider>

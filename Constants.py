@@ -10,5 +10,5 @@ direction = RIGHT
 # The size of a single block
 blockSize = 20
 # The maximum number of blocks on each side.
-xBound = 20
-yBound = 20
+xBound = 50
+yBound = 50
