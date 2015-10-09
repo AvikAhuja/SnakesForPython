@@ -6,7 +6,7 @@ from pygame.locals import *
 from Helpers import *
 from Constants import *
 
-
+apple = Rect(blockSize, blockSize, blockSize, blockSize)
 
 # This is the head of the snake.
 # What type is it?!?!
@@ -16,6 +16,10 @@ snakeHead = Rect(blockSize, blockSize, blockSize, blockSize)
 # These brackets mean that the body is a list;
 # In other words, there might be many parts to the body.
 snakeBody = []
+apple = []
+
+
+
 
 # This is the apple.
 # Calling randomRect starts the apple off in a random place on the screen.
@@ -32,7 +36,7 @@ clock = pygame.time.Clock()
 # This loop is very interesting. When will it stop running?
 # (hint- when is the while condition false?)
 while True:
-    clock.tick(30)
+    clock.tick(10)
 
     # This gets the keyboard input. Don't worry too much about the first couple lines.
     for keypress in pygame.event.get():
@@ -80,11 +84,11 @@ while True:
         quitGame()
         if(hasHitBody):
             quitGame()
+
     # We need to check if the head has collided with the body!
     # How can we do this?
     # (hint- it should be very similar to the line above!)
     # Go ahead and do it here!
-
 
     # Checks if the head collides with the apple.
     if (hasEaten):

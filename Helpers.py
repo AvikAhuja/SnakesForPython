@@ -99,7 +99,7 @@ def draw(oldPiece, head, body, appleRect, hasEaten, screen):
         pygame.draw.rect(screen, (0, 0, 0), oldPiece)
 
     # Draw the apple.
-    pygame.draw.rect(screen, (255, 0, 0), appleRect)
+    pygame.draw.rect(screen, (255, 255, 255), appleRect)
 
 
 
