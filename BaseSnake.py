@@ -5,7 +5,8 @@ from random import randint
 from pygame.locals import *
 from Helpers import *
 from Constants import *
-
+hit = "YOU LOST because you hit the wall"
+crash = "YOU LOST because you crashed int o yourself"
 apple = Rect(blockSize, blockSize, blockSize, blockSize)
 
 # This is the head of the snake.
@@ -81,9 +82,9 @@ while True:
 
     # Checks if the head collides with the wall.
     if(hasHitWall):
-        quitGame()
-        if(hasHitBody):
-            quitGame()
+        quitGame(hit)
+    if(hasHitBody):
+        quitGametwo(crash)
 
     # We need to check if the head has collided with the body!
     # How can we do this?

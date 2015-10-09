@@ -26,7 +26,7 @@ from Constants import *
 
 
 walls = []
-
+snakeBody = []
 
 def initWalls(screen):
     for i in range(0, xBound):
@@ -46,10 +46,18 @@ def printRect(text, rect):
     print text + " Top-left: (" + str(rect.left) + ", " + str(oldPiece.top) + ")"
 
 # Code for if snake runs into itself or game exits.
-def quitGame():
+def quitGame(hit):
     print "Game over!"
     # How can we measure the player's score?
-    print "Your score is: However Many Apples You Ate "
+
+    print "YOU LOST because you hit the wall"
+    sys.exit(0)
+
+def quitGametwo(crash):
+    print "Game over!"
+    # How can we measure the player's score?
+
+    print "YOU LOST because you crashed into yourself"
     sys.exit(0)
 
 # Code to move the head.
